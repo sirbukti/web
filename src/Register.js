@@ -19,7 +19,7 @@ function Register() {
                </Form.Field>
              </Form>
          <Container style={{height: 16, width: 0}}></Container>
-         <Button style={{width: 220}} color='green' as={Link} to='/home'>Daftar</Button>
+         <Button style={{width: 220}} color='green' as={Link} to='/'>Daftar</Button>
        </Segment>
        </Grid.Column>
      </Grid>

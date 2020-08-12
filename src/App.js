@@ -14,10 +14,10 @@ function App() {
     <Router basename='/web'>
      <Switch>
        <Route exact path='/'>
-         <Register/>
-       </Route>
-       <Route path='/home'>
          <Home/>
+       </Route>
+       <Route path='/register'>
+         <Register/>
        </Route>
      </Switch>
    </Router>

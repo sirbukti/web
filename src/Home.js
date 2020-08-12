@@ -10,7 +10,7 @@ function Home() {
                <Icon name='check circle' color='green'/>
                Selamat Datang
            </Header>
-           <Button as={Link} to='/' color='red' fluid>
+           <Button as={Link} to='/register' color='red' fluid>
                <Icon name='log out'/>
                Keluar
            </Button>
