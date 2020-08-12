@@ -11,13 +11,13 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/web'>
      <Switch>
        <Route exact path='/'>
-         <Home/>
-       </Route>
-       <Route path='/register'>
          <Register/>
+       </Route>
+       <Route path='/home'>
+         <Home/>
        </Route>
      </Switch>
    </Router>
